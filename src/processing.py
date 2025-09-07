@@ -19,4 +19,3 @@ def sort_by_date(transactions: List[Dict], reverse: bool = True) -> List[Dict]:
             return datetime.min
 
     return sorted(transactions, key=parse_date, reverse=reverse)
-
